@@ -866,7 +866,7 @@
             </resource>
             </resources>
         <plugins>
-            <plugin>
+            <!--<plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>buildnumber-maven-plugin</artifactId>
                 <version>${maven-buildnumber-plugin.version}</version>
@@ -901,7 +901,7 @@
                         <version>${maven-scm-jgit.version}</version>
                     </dependency>
                 </dependencies>
-            </plugin>
+            </plugin>-->
             <plugin>
                 <!-- make war runnable with main class -->
                 <groupId>org.springframework.boot</groupId>
@@ -1025,7 +1025,7 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
+            <!--<plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>license-maven-plugin</artifactId>
                 <version>${maven-license-plugin.version}</version>
@@ -1048,7 +1048,7 @@
                         <phase>process-sources</phase>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
 </project>

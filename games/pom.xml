@@ -194,7 +194,7 @@
         </resources>
         <pluginManagement>
             <plugins>
-                <plugin>
+                <!--<plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>buildnumber-maven-plugin</artifactId>
                     <version>${maven-buildnumber-plugin.version}</version>
@@ -229,7 +229,7 @@
                             <version>${maven-scm-jgit.version}</version>
                         </dependency>
                     </dependencies>
-                </plugin>
+                </plugin>-->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
@@ -331,7 +331,7 @@
                         </execution>
                     </executions>
                 </plugin>
-                <plugin>
+                <!--<plugin>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>license-maven-plugin</artifactId>
                     <version>${maven-license.version}</version>
@@ -357,7 +357,7 @@
                             <phase>process-sources</phase>
                         </execution>
                     </executions>
-                </plugin>
+                </plugin>-->
             </plugins>
         </pluginManagement>
     </build>

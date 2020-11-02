@@ -1,8 +1,8 @@
 set ROOT=%CD%
 
 IF "%GAMES_TO_RUN%"=="" (
-	rem set GAMES_TO_RUN=all
-	set GAMES_TO_RUN=bomberman
+	set GAMES_TO_RUN=all
+	rem set GAMES_TO_RUN=bomberman
 	rem set GAMES_TO_RUN=tetris,snake,bomberman
 )
 

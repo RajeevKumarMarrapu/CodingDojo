@@ -1,0 +1,15 @@
+[submodule "portable/linux-docker-compose"]
+	path = portable/linux-docker-compose
+	url = https://github.com/codenjoyme/codenjoy-portable-linux.git
+[submodule "portable/linux-docker"]
+	path = portable/linux-docker
+	url = https://github.com/codenjoyme/codenjoy-portable-linux-lite.git
+[submodule "portable/windows-cmd"]
+	path = portable/windows-cmd
+	url = https://github.com/codenjoyme/codenjoy-portable-windows.git
+[submodule "games/excitebike"]
+	path = games/excitebike
+	url = https://github.com/codenjoyme/codenjoy-excitebike.git
+[submodule "games/selfdefense"]
+	path = games/selfdefense
+	url = https://github.com/codenjoyme/codenjoy-selfdefense

@@ -6,8 +6,8 @@ before_install:
   - tar xzvf apache-maven-3.6.3-bin.tar.gz
   - export PATH=`pwd`/apache-maven-3.6.3/bin:$PATH
   - mvn -v
+  - chmod +x mvnw
 script:
-        - chmod +x mvnw
         - mvn clean install
 cache:
   directories:

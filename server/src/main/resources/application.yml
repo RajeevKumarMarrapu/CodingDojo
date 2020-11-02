@@ -1,8 +1,12 @@
 server:
   servlet.context-path: ${context:/codenjoy-contest}
   ip: 127.0.0.1
-  port: 8080
+  port: ${PORT:8080}
   xFrameAllowedHosts: example.com,localhost:3000
+
+spring:
+  profiles:
+    active: sqlite
 
 plugins:
   enable: false
